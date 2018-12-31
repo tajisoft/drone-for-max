@@ -1,0 +1,30 @@
+{
+  "name": "drone-for-max",
+  "version": "1.0.0",
+  "description": "drone api for max8",
+  "main": "drone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tajisoft/drone-for-max.git"
+  },
+  "keywords": [
+    "drone",
+    "mavlink",
+    "max8"
+  ],
+  "author": "Tsuyoshi Kawamura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tajisoft/drone-for-max/issues"
+  },
+  "homepage": "https://github.com/tajisoft/drone-for-max#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "mavlink": "^1.0.1",
+    "net": "^1.0.2",
+    "underscore": "^1.9.1"
+  }
+}
